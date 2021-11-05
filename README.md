@@ -70,9 +70,9 @@ Before working on the rest of the deliverables, you will need to create migratio
   name of the medicine (i.e. Vicodin, Metformin, Advil, etc.)
 
 After creating the tables using migrations, use the `seeds.rb` file to
-create instances of your fours classes so you can test your code.
+create instances of your three classes so you can test your code.
 
-**Once you've set up your tables**, create some seed data (you need it so you can test your code) and work on building out the following deliverables.
+**Once you've set up your tables**, work on building out the following deliverables.
 
 ### (Only in Stage 2) Object Association Methods
 
