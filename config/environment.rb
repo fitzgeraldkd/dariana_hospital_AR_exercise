@@ -10,3 +10,5 @@ ActiveSupport::Inflector.inflections(:en) do |inflect|
 end
 
 require_all 'app/models'
+
+require 'faker'
