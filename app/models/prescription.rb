@@ -9,6 +9,8 @@ class Prescription < ActiveRecord::Base
   def self.were_prescribed_by_gender(medicine_name, gender)
     self.all.filter do |prescription|
       prescription.description == medicine_name && Patient.find(prescription.patient_id).gender == gender
-    end
+    end.map do |prescription|
+      Patient.find(prescription.patient_id)
+    end.uniq
   end
 end
